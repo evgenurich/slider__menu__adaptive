@@ -99,11 +99,12 @@ li {
 
 #menu__toggle {
 	opacity: 0;
+	position: fixed !important;
 }
 
 .menu__btn {
 	display: flex;
-	position: fixed;
+	position: fixed !important;
 	align-items: center;
 
 	top: 20px;
