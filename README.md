@@ -1,0 +1,1 @@
+# slider__menu__adaptive
