@@ -111,7 +111,7 @@ li {
 	position: fixed !important;
 	align-items: center;
 
-	top: 20px;
+	top: 12vh;
 	left: 20vw;
 
 	width: 26px;
@@ -154,12 +154,13 @@ li {
 	left: 20vw;
 
 	width: 150px;
-	height: 230px;
+	height: 227px;
 
 	background-color: #fff;
 	
 	list-style: none;
 	text-align: center;
+
 	text-transform: uppercase;
 
     z-index: 999;
@@ -176,12 +177,25 @@ li {
 
     font-weight: 600;
 
-    padding: 7px 0;
+    padding: 4px 0px;
+    margin-top: 6px;
+
 
     text-transform: uppercase;
     text-decoration: none;
 
     cursor: pointer;
+   
+    color:#999;
+
+}
+
+.menu__box li {
+	margin-top: 6px;
+}
+
+.link {
+	z-index: 8888;
 }
 
 .menu__item:hover {
@@ -1486,7 +1500,7 @@ li {
 	.wrapper  {
      	width: 75vw;
      	margin-top: 30px;
-
+    }
 	/*CLIENTS*/
     .clients__items {
     	margin-top: 15px; 
@@ -1523,10 +1537,9 @@ li {
 	.header__intro__title {
          font-size: 22px;
          text-align: center;
-         /*margin-left: 2vw;*/
-
-     }
-
+         margin-left: 3vw;
+    }
+           
      .header__intro__subtitle {
      	text-align: center;
      }
