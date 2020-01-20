@@ -32,6 +32,7 @@ li {
 	list-style-type:none;
 }
 
+
 .container {
 	
 	margin-left: 205px;
@@ -94,6 +95,9 @@ li {
 /*NAV*//*NAV*//*NAV*//*NAV*/
 .hamburger__menu {
 	display: none;
+
+	z-index: 9999;
+
 }
 
 
@@ -115,6 +119,7 @@ li {
 
 	cursor: pointer;
 	z-index: 999;
+	
 
 }
 
@@ -161,7 +166,7 @@ li {
 
     font-size: 12px;
     color: #999;
-	
+
     border: 1px solid #999;
     border-radius: 3px;
 }
@@ -171,7 +176,7 @@ li {
 
     font-weight: 600;
 
-    padding-top: 15px;
+    padding: 7px 0;
 
     text-transform: uppercase;
     text-decoration: none;
