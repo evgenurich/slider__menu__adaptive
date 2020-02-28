@@ -280,6 +280,8 @@ li {
 	width: 170px;
 	margin-left: 5px;
 	margin-top: 8px;
+
+	padding-left: 
 }
 
 
@@ -1125,10 +1127,11 @@ li {
 
 .phone_par {
 	font-weight: 600;
-	color: #3C4D51;
+	
 
 	display: flex;
 	align-items: center;
+	
 }
 
 .phone_par img {
@@ -1138,6 +1141,10 @@ li {
 	margin-top: 3px;
 }
 
+.phone_par a {
+	text-decoration: none;
+	color: #3C4D51;
+}
 
 .social__icons {
 	display: flex;	
